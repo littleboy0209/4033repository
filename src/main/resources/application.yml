@@ -1,0 +1,38 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/boot?useUnicode=true&useSSL=false&characterEncoding=utf8
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    # youxiang peizhi
+  mail:
+    host: smtp.163.com
+    username: zhangchunyang0209@163.com
+    password: ZIVNIUENZSERXRHP
+    #redis lianjie 第几个 shujuku  db0
+  redis:
+    database: 1
+#    更改线程池大小,默认为8
+#  task:
+#    execution:
+#      pool:
+#        core-size: 50
+
+  jackson:
+    date-format: yyyy-MM-dd
+
+
+
+#    修改日志级别
+# 指定包,修改整个项目的级别
+logging:
+  level:
+    com.javasm.springbootmybatis: debug
+# 指定包,修改某个包的级别
+#logging:
+#  level:
+#    com.javasm.springbootmybatis.controller: warn
+
+
