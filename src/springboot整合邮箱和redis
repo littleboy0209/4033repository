@@ -1,0 +1,7 @@
+1.springboot启动好，访问：http://localhost:8080/时，会自动访问index.html页面，
+但是我的需求是默认跳到login.html页面
+
+第一种方式：写一个Controller页面重定向 PageJumpController
+第二种方式：写一个配置类
+
+
